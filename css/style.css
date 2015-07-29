@@ -2,3 +2,8 @@ body {
    margin: 100px 50px;
    background: #EFF8FB;
 }
+
+h1 {
+   border: 5px solid black;
+   font-family: "Didot";
+}
