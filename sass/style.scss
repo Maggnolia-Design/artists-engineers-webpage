@@ -1,9 +1,10 @@
-
 body {
    margin: 100px 70px;
    background: #EFF8FB;
+}
 
-   h1 {
+header {
+   >h1 {
       padding: 20px;
       border: 7px solid black;
       font-family: "Didot";
@@ -12,30 +13,41 @@ body {
    }
 }
 
+div {
+   >h2 {
+      font: bold 40px 'Times New Roman' serif;
+   }
 
-h2 {
-   font: bold 34px 'Times New Roman' serif;
+   >h3 {
+      font: bold 30px 'Times New Roman' serif;
+      padding-left: 40px
+   }
 }
 
-h3 {
-   font: bold 30px 'Times New Roman' serif;
-}
-
-h4 {
-   font: bold 30px 'Times New Roman' serif;
-}
-
-p {
-   font: 17px 'Times New Roman' serif;
-}
-
-li {
-   padding-left: 30px;
-   margin-bottom: 65px;
-   border-left: 4px solid black;
-   list-style-type: none
+main {
+   >div {
+      background-color: #fbfbfb;
+      padding: 25px 50px
+   }
 }
 
 ul {
+   >li {
+      padding-left: 50px;
+      padding-right: 50px;
+      margin: 50px;
+      border-left: 4px solid black;
+      list-style-type: none
+   }
    padding-top: 30px
+}
+
+li {
+   >h4 {
+      font: bold 24px 'Times New Roman' serif;
+   }
+   >p {
+      font: 18px/24px 'Times New Roman' serif;
+      padding-bottom: 20px
+   }
 }
