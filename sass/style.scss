@@ -1,11 +1,41 @@
+
 body {
-   margin: 100px 50px;
+   margin: 100px 70px;
    background: #EFF8FB;
+
+   h1 {
+      padding: 20px;
+      border: 7px solid black;
+      font-family: "Didot";
+      font-size: 50px;
+      text-align: center;
+   }
 }
 
-h1 {
-   border: 5px solid black;
-   font-family: "Didot";
-   font-size: 50px;
-   text-align: center;
+
+h2 {
+   font: bold 34px 'Times New Roman' serif;
+}
+
+h3 {
+   font: bold 30px 'Times New Roman' serif;
+}
+
+h4 {
+   font: bold 30px 'Times New Roman' serif;
+}
+
+p {
+   font: 17px 'Times New Roman' serif;
+}
+
+li {
+   padding-left: 30px;
+   margin-bottom: 65px;
+   border-left: 4px solid black;
+   list-style-type: none
+}
+
+ul {
+   padding-top: 30px
 }
