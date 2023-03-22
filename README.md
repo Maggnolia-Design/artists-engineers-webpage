@@ -1,3 +1,5 @@
+Webpage with basic conteent structure (RISD Intro to Web Design, assignment 2) (2015)
+
 slidenumbers: true
 
 # [fit] RISD | Summer 2015 Web Design | Assignment 1
